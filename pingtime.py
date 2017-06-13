@@ -3,7 +3,7 @@ from discord.ext import commands
 
 
 class PingTime:
-    """Bot's Ping Time"""
+    """Displays the Bot's Ping Time in M/S"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -19,7 +19,8 @@ class PingTime:
                 def timedelta_milliseconds(td):
                     return td.days*86400000 + td.seconds*1000 + td.microseconds/1000
 
-                await self.bot.edit(pongmsg, new_content="**Pong! Took:  {}ms**".format(str(int(timedelta_milliseconds(pongmsg.timestamp-message.timestamp)))))
+                await self.bot.edit_bot(pongmsg, new_content="**Pong! Took:  {}ms**".format(str(int(timedelta_milliseconds(pongmsg.timestamp-message.timestamp)))))
 
 def setup(bot):
     bot.add_cog(PingTime(bot))
+
