@@ -1,3 +1,0 @@
- @commands.command(pass_context=True)
-    async def gaben(self, context):
-        await self.bot.send_file(context.message.channel, '{}gaben.jpg'.format(self.base))
