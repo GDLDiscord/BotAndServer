@@ -16,11 +16,15 @@ class Fakeban:
             if iser.id == self.bot.user.id:
                 user = ctx.message.author
                 msg = "User has been banned! "
-                await self.bot.say(user + msg)
-            
+                await self.bot.say(user.ctx + msg)
+            else:
+                await self.bot.say(user.mention + msg)
+        else:
+            await self.bot.say (ctx.user.author.mention + msg)
         
 
 
 
 def setup(bot):
     bot.add_cog(Fakeban(bot))
+
