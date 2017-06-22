@@ -19,14 +19,14 @@ class AdvancedBotHelp:
         """Official GDL Discord Link"""
 
         
-        await self.bot.say("**Join the Official GDL Discord server with this link - https://discord.gg/GJ2N2en**")
+        await self.bot.say("**Join the Official GDL Discord server with this link - https://discord.gg/9chm7rk**")
 
     @commands.command()
     async def support(self):
         """Official GDL Bot Support"""
 
         
-        await self.bot.say("**Need help with GDL Bot? Ask in our support channel! - https://discord.gg/7uFKtE7**")
+        await self.bot.say("**Need help with GDL Bot? Ask in our support channel! - https://discord.gg/f4gKy22**")
 
 def setup(bot):
     bot.add_cog(AdvancedBotHelp(bot))
