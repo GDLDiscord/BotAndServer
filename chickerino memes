@@ -1,2 +1,14 @@
 import discord
-from discord.ext
+from discord.ext import commands
+
+
+class ChickerinoMemes:
+    def __init__(self, bot):
+        self.bot = bot
+        self.base = 'data/chickerino/memes/' #location of the images
+
+
+
+def setup(bot):
+    n = ChickerinoMemes(bot)
+    bot.add_cog(n)
