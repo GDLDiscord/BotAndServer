@@ -35,7 +35,8 @@ class Chickerino:
             "**Chickerino meme #19** http://i.imgur.com/AisqxU3.png",
             "**Chickerino meme #20** http://i.imgur.com/u1YAUmq.png",
             "**Chickerino meme #21** https://cdn.discordapp.com/attachments/320554920375877634/330019493139054607/unknown.png",
-            "**Chickerino meme #22** http://i.imgur.com/sratP8K.png"
+            "**Chickerino meme #22** http://i.imgur.com/sratP8K.png",
+            "**Chickerino meme #23** https://gdlvulcan.xyz/i/j86t4m.png"
     ]
         choice = random.choice(memes)
         await self.bot.say(choice)
