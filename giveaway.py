@@ -14,4 +14,4 @@ class Giveaway:
    	        em.set_thumbnail(url='http://isahotel.com.au/wp-content/uploads/2016/02/Gift_Card.jpg')
 
 def setup(bot):
-    bot.add_cog(General(bot))
+    bot.add_cog(Giveaway(bot))
