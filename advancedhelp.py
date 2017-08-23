@@ -14,12 +14,12 @@ class AdvancedBotHelp:
         
         await self.bot.say("**Invite GDL Bot with this link!** - https://discordapp.com/oauth2/authorize?client_id=289855165056679937&scope=bot&permissions=469765175")
 
-    @commands.command()
-    async def server(self):
-        """Official GDL Discord Link"""
+    #@commands.command()
+    #async def server(self):
+    #    """Official GDL Discord Link"""
 
         
-        await self.bot.say("**Join the Official GDL Discord server with this link - https://discord.gg/9chm7rk**")
+    #    await self.bot.say("**Join the Official GDL Discord server with this link - https://discord.gg/9chm7rk**")
 
     @commands.command()
     async def support(self):
