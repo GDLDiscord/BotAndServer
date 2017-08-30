@@ -14,6 +14,7 @@ class OHHMemes:
     @commands.command()
     async def ohhmeme(self):
 
+        #feel free to add memes (anyone who has access) as long as you know how python lists work then i am sure you are fine :)
         memes = [
             "**OHH Meme #1:** https://cdn.discordapp.com/attachments/240902066602508288/352387684808917002/Danymoreofthem.PNG",
             "**OHH Meme #2:** https://cdn.discordapp.com/attachments/240902066602508288/352387687854112778/deaglebelike.PNG",
