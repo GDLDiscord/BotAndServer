@@ -5,6 +5,7 @@ from random import choice as randchoice
 import os
 
 
+
 class Yomamma:
 
     """Yomamma insult cog created by Vulcan"""
